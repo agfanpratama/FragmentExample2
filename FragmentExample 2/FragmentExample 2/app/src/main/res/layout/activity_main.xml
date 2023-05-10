@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation = "vertical"
+    tools:context = ".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/firstFragment"
+            android:layout_width="47pt"
+            android:layout_height="wrap_content"
+            android:text="Fragment First"
+            android:textSize="11sp" />
+
+        <Button
+            android:id="@+id/secondFragment"
+            android:layout_width="47pt"
+            android:layout_height="wrap_content"
+            android:text="Fragment Second"
+            android:textSize="11sp" />
+
+        <Button
+            android:id="@+id/thirdFragment"
+            android:layout_width="47pt"
+            android:layout_height="wrap_content"
+            android:text="Fragment Third"
+            android:textSize="11sp" />
+
+        <Button
+            android:id="@+id/fourthFragment"
+            android:layout_width="47pt"
+            android:layout_height="wrap_content"
+            android:text="Fragment Fourth"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id = "@+id/frameLayout"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:layout_marginTop = "10dp"  />
+
+</LinearLayout>
